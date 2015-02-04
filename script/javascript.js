@@ -2,13 +2,12 @@ var HOURS = {
 	onReady: function() {
 		var i = 0;
 		var substring = "",count = 0;
-
 		
 		function clock(){
 			if(i == 3600){i=0;}
 			i++;
 			var elem = $(".donut");
-			console.log(elem.html());
+			//console.log(elem.html());
 		  	var radius = elem.parent().parent().data("radius") * 4;
 
 		  	elem.peity("donut", {
