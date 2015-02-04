@@ -1,0 +1,40 @@
+#circle .peity{
+	margin: 0% 0% 0% 12%;
+	position: relative;
+	top: -344px;
+}
+
+.radius{
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#inner_circle .peity{
+	margin: -18% 0% 0% 20%;
+	position: relative;
+	top: -496px;
+}
+
+div#marker{
+	width: 10px; 
+	height:10px; 
+	background: black; 
+	position:absolute; 
+	left:195px; 
+	cursor: crosshair;
+
+    -moz-transform:rotate(45deg);
+    -moz-transform-origin:5px 200px;
+    
+    transform:rotate(45deg);
+    transform-origin:5px 200px;                          
+
+    -ms-transform:rotate(45deg);
+    -ms-transform-origin:5px 200px;                                
+    
+    -webkit-transform:rotate(45deg);
+    -webkit-transform-origin:5px 200px;                       
+
+    z-index:17;
+} 

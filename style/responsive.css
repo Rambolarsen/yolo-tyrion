@@ -1,0 +1,12 @@
+@media screen  and (max-width: 700px){
+	body{
+		background-color: #C3C3C3;
+	}
+	
+}
+
+@media screen  and (max-width: 400px){
+	body{
+		background-color: #F3F3F3;
+	}
+}
